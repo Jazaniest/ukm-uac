@@ -6,21 +6,21 @@ import { achievementsData } from "../data/data";
 import { useState, useMemo } from "react";
 
 const medalConfig = {
-  "Juara 1": {
+  "Emas": {
     bg: "bg-yellow-500/20",
     text: "text-yellow-400",
     border: "border-yellow-500/50",
     icon: "🥇",
     gradient: "from-yellow-500/20 to-yellow-600/10"
   },
-  "Juara 2": {
+  "Perak": {
     bg: "bg-gray-400/20",
     text: "text-gray-300",
     border: "border-gray-400/50",
     icon: "🥈",
     gradient: "from-gray-400/20 to-gray-500/10"
   },
-  "Juara 3": {
+  "Perunggu": {
     bg: "bg-orange-600/20",
     text: "text-orange-400",
     border: "border-orange-500/50",
