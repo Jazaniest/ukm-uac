@@ -1,5 +1,6 @@
 import { Target, Mail, Phone, MapPin, Instagram, Youtube, Facebook } from "lucide-react";
 import { navLinks } from "../data/data";
+import uac from "../assets/uac.png";
 
 export default function Footer() {
   const scrollTo = (href) => {
@@ -14,15 +15,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex items-center justify-center bg-yellow-500 rounded-full w-9 h-9">
-                <Target size={18} className="text-gray-950" />
-              </div>
+              <img src={uac} alt="logo uac" className="object-contain w-15 h-15" />
               <span className="text-lg font-black tracking-wider text-white">
-                <span className="text-yellow-400">U</span>AC
+                <span className="text-yellow-400">UAC</span>
               </span>
             </div>
             <p className="mb-5 text-sm leading-relaxed text-gray-500">
-              Unilak Archery Club — Komunitas panahan mahasiswa Universitas Lancang Kuning yang berprestasi tingkat nasional.
+              Unilak Archery Club — Komunitas panahan mahasiswa Universitas Lancang Kuning.
             </p>
             <div className="flex gap-3">
               {[
@@ -86,7 +85,18 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-3 pt-6 border-t border-gray-800 sm:flex-row">
-          <p className="text-xs text-gray-600">© 2024 UAC – Unilak Archery Club. Hak Cipta Dilindungi.</p>
+          <p className="text-xs text-center text-gray-600">
+            © {new Date().getFullYear()}{" "}
+            <a
+              href="https://jazaniest.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-yellow-500 transition hover:text-yellow-400"
+            >
+              jzx.dev
+            </a>{" "}
+            – Hak Cipta Dilindungi.
+          </p>
           <p className="text-xs text-gray-700">Universitas Lancang Kuning, Pekanbaru – Riau</p>
         </div>
       </div>
