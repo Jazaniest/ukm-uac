@@ -9,20 +9,96 @@ export const navLinks = [
   { label: "Daftar", href: "#registration" },
 ];
 
-export const managementData = [
-  { id: 1, name: "Ahmad Fauzi", role: "Ketua Umum", initials: "AF" },
-  { id: 2, name: "Siti Rahmawati", role: "Wakil Ketua", initials: "SR" },
-  { id: 3, name: "Budi Santoso", role: "Sekretaris I", initials: "BS" },
-  { id: 4, name: "Dewi Anggraini", role: "Sekretaris II", initials: "DA" },
-  { id: 5, name: "Rizky Pratama", role: "Bendahara I", initials: "RP" },
-  { id: 6, name: "Nurul Hidayah", role: "Bendahara II", initials: "NH" },
-  { id: 7, name: "Hendra Wijaya", role: "Bid. Prestasi", initials: "HW" },
-  { id: 8, name: "Fitri Yuliana", role: "Bid. Pembinaan", initials: "FY" },
-  { id: 9, name: "M. Faisal", role: "Bid. Humas", initials: "MF" },
-  { id: 10, name: "Lestari Putri", role: "Bid. Perlengkapan", initials: "LP" },
-  { id: 11, name: "Andi Kurniawan", role: "Bid. Media", initials: "AK" },
-  { id: 12, name: "Rini Septiana", role: "Anggota Senior", initials: "RS" },
-];
+export const orgData = {
+  penanggungjawab: {
+    name: "Rektor Universitas Lancang Kuning",
+    role: "PENANGGUNG JAWAB",
+  },
+
+  penasihat: [
+    { name: "Wakil Rektor I", role: "PENASIHAT" },
+    { name: "Wakil Rektor II", role: "PENASIHAT" },
+    { name: "Wakil Rektor III", role: "PENASIHAT" },
+  ],
+
+  pembina: {
+    name: "Septiandi Putra, S.E., M.M.",
+    role: "PEMBINA",
+  },
+
+  inti: [
+    { name: "M. Rizki Wahyu Pratama", role: "KETUA UMUM" },
+    { name: "Rian Solihin Syarif", role: "SEKRETARIS UMUM" },
+    { name: "Mai Gustina", role: "BENDAHARA UMUM" },
+  ],
+
+  kepalaP: {
+    name: "Rayhand Dhewa Ardhana",
+    role: "KEPALA PELATIH",
+  },
+
+  pelatih: [
+    { name: "M. Suryadi Hermawan", role: "PELATIH BAREBOW" },
+    { name: "Amirul Bahri", role: "PELATIH TRADISIONAL BOW" },
+  ],
+
+  bidang: [
+    {
+      title: "ORGANISASI & KADERISASI",
+      ketua: "Ahmad Darby",
+      anggota: [
+        "Nur Sovia",
+        "Rizky Aullia Putri",
+        "Oliviya Handayani",
+        "Afirah Farahdlba",
+        "Farika Ardila",
+        "Indah Pistiyani",
+        "Dwi Afrianti",
+        "Ananda Shabuha Laili",
+      ],
+    },
+    {
+      title: "KESEKRETARIATAN",
+      ketua: "Donni Firmansyah",
+      anggota: [
+        "Sri Rahayu Safitri",
+        "Dinda Rizki Pragiska",
+        "Maya Chintya Reza",
+        "Sinta Tri Melani",
+        "Dinda Hermalia Putri",
+        "Zachia Mardatila",
+        "Dian Gusvita Uftopiani",
+      ],
+    },
+    {
+      title: "PUBLIKASI & DOKUMENTASI",
+      ketua: "Putri Chusnun Ardila",
+      anggota: [
+        "Mutia Nur",
+        "Syarifah Lailatul Marwiah",
+        "Tutu Sora Saufika",
+        "Auliya Fitriani",
+        "Dwi Septiyani",
+        "Sri Hotmawati Sinaga",
+        "Annisa Ayunda",
+        "Amanda Era Cahyadi",
+      ],
+    },
+    {
+      title: "SARANA & PRASARANA",
+      ketua: "Rahmat Al Fadillah",
+      anggota: [
+        "M. Rafi",
+        "Rizki Yoga Pratama",
+        "Sayid Alpharizki",
+        "Santa Maria",
+        "Diani Puspita",
+        "Hafshah Safitri",
+        "Risa Maharani",
+      ],
+    },
+  ],
+};
 
 export const eventsData = [
   { id: 1, name: "Unilak Archery Open Tournament 2024", type: "Tournament", location: "Lapangan Kampus Unilak, Pekanbaru", year: "2024", description: "Tournament panahan tahunan yang diselenggarakan UAC dengan peserta dari seluruh Sumatera." },
