@@ -57,9 +57,8 @@ export default function Registration() {
             </div>
             <div className="p-5 border bg-yellow-500/10 border-yellow-500/30 rounded-2xl">
               <p className="mb-1 text-sm font-bold text-yellow-400">Jadwal Latihan</p>
-              <p className="text-sm text-gray-300">Selasa & Kamis: 15.30 – 17.30 WIB</p>
-              <p className="text-sm text-gray-300">Sabtu: 07.00 – 10.00 WIB</p>
-              <p className="mt-2 text-xs text-gray-500">Lapangan Panahan Kampus Unilak, Pekanbaru</p>
+              <p className="text-sm text-gray-300">Selasa, Kamis, Sabtu: 15.30 – 17.30 WIB</p>
+              <p className="mt-2 text-xs text-gray-500">Lapangan Panahan UAC Unilak, Pekanbaru</p>
             </div>
           </motion.div>
 
